@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TODO LIST APPLICATION</title>
+    <script src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <!-- The parent container -->
+    <div id = "parent-container" class = "border-2">
+        
+        
+        <!-- The input text box container -->
+        <div id = "input-container"  class = "border-2">
+           <!-- The add icon -->
+            <div id = "add-item">
+                <i class="fa-solid fa-circle-plus" id = "add-item-icon"></i>
+            </div>
+            <!-- The input text box -->
+            <div id = "input-box">
+                <form>
+                    <input id="user-input-textbox"  type = "text" placeholder="Enter new task">
+                </form>
+            </div>
+         </div>
+
+        
+        
+         <!-- The list items container -->
+        <div id = "items-container"  class = "border-2">
+            <div id = "item-holder-0" class = "border-2 item-holder-class">
+                <!-- The item value with check box -->
+                <div id = "item-content" class="item-content-class">
+                    <form>
+                        <input type = "checkbox" id = "task-detail" name = "task-detail">
+                        <label for="task-detail">want to finish project</label>
+                    </form>
+                </div>
+                <!-- The delete icon -->
+                <div id = "delete-item" class = "delete-item-class">
+                    <i class="fa-solid fa-circle-minus"></i>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        <!-- The task count container -->
+        <div id="task-count-div"  class = "border-2">
+            <p class = "total-count-class">Total tasks : 1</p>
+
+
+        </div>
+    </div>
+    <script type = "module" src="script.js"></script>
+</body>
+
+
+
+</html>
