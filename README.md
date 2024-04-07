@@ -13,7 +13,8 @@ https://creativeazign.github.io/ToDo-App/
 
 Preview:-
 
-![Screenshot (275)](https://github.com/CreativeAzign/ToDo-App/assets/164135691/45ed127f-a5a7-4c47-a67f-81fdb9eb4a15)
+
+![Screenshot (275)](https://github.com/CreativeAzign/ToDo-App/assets/164135691/34d0d8c5-111f-4697-b4eb-ab4158fd3f29)
 
 About
 This project is created by Sujitha R. Feel free to use it, modify it, or contribute to it as you see fit.
